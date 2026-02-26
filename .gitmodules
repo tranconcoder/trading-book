@@ -1,6 +1,7 @@
 [submodule "trading-book-ui"]
 	path = trading-book-ui
 	url = ../trading-book-ui.git
+
 [submodule "trading-book-api"]
 	path = trading-book-api
-	url = ../trading-book-api.git
+	url = git@gitlab.trancondev.site:trading-book/trading-book-api.git
