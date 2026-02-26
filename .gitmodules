@@ -1,0 +1,3 @@
+[submodule "trading-book-api"]
+	path = trading-book-api
+	url = ../trading-book-api.git
