@@ -4,4 +4,4 @@
 
 [submodule "trading-book-api"]
 	path = trading-book-api
-	url = git@gitlab.trancondev.site:trading-book/trading-book-api.git
+	url = ../trading-book-api.git
