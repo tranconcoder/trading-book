@@ -1,7 +1,9 @@
 [submodule "trading-book-ui"]
 	path = trading-book-ui
 	url = ../trading-book-ui.git
+	branch = master
 
 [submodule "trading-book-api"]
 	path = trading-book-api
 	url = ../trading-book-api.git
+	branch = master
