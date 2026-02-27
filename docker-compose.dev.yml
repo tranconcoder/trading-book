@@ -7,4 +7,16 @@ services:
       - ./trading-book-api:/app
     ports:
       - "${API_PORT}:3000"
-    restart: unless-stopped
+    restart: always
+
+  ui:
+    build:
+      context: ./trading-book-ui
+      dockerfile: Dockerfile.development
+    volumes:
+      - ./trading-book-ui:/app
+    environment:
+      - PORT=3001
+    ports:
+      - "${UI_PORT}:3001"
+    restart: always
