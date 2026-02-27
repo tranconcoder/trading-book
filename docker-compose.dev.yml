@@ -1,0 +1,10 @@
+services:
+  api:
+    build:
+      context: ./trading-book-api
+      dockerfile: Dockerfile.development
+    volumes:
+      - ./trading-book-api:/app
+    ports:
+      - "${API_PORT}:3000"
+    restart: unless-stopped

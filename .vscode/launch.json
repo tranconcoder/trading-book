@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Start Dev",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "sh scripts/start-dev.sh",
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}
